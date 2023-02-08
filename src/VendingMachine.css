@@ -1,0 +1,9 @@
+.VendingMachine {
+    height: 1000px;
+    background-image: url("https://media.timeout.com/images/105481661/image.jpg");
+    color: white;
+  }
+
+  .VendingMachine h1 {
+    color: white;
+  }

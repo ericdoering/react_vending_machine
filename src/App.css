@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+
+.App {
+  background-image: url("https://images.squarespace-cdn.com/content/v1/5ca6bbd9f4e5314e82fe546f/1590700249109-9T88TPS33L90ETZB2NQ8/ji-seongkwang-lvu7gpzIT8k-unsplash.jpg")
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
